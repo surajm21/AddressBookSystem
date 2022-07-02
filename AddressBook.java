@@ -64,8 +64,8 @@ public class AddressBook {
                 String lastname = scanner.next();
                 System.out.println("Enter address");
                 String address = scanner.next();
-                list.get(i).getFirstname();
-                list.get(i).getLastname();
+                list.get(i).setFirstname(firstname);
+                list.get(i).setLastname(lastname);
                 list.get(i).setAddress(address);
             }
         }
